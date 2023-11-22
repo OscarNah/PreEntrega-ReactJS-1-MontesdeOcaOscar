@@ -1,0 +1,35 @@
+.navbar {
+  border-bottom: 1px solid black;
+  background-color: black;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  cursor: pointer;
+}
+.nombrePagina {
+  color: white;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar a:hover {
+  color: red;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 2rem;
+}
+.navbar li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+}
